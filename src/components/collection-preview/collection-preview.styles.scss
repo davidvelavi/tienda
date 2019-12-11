@@ -1,0 +1,13 @@
+.CollectionPreview{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  &-Title{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  &-Preview{
+    display: flex;
+    justify-content: space-between;
+  }
+}
