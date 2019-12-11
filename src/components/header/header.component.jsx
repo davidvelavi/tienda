@@ -7,10 +7,8 @@ const Header = ()=>(
   <div className="Header">
     <Logo className="Header-Logo" />
     <div className="Header-Options">
-      <div className="Header-Options">
-        <span className="Header-Option"> Shop </span>
-        <span className="Header-Option"> Contact </span>
-      </div>
+      <span className="Header-Option"> Shop </span>
+      <span className="Header-Option"> Contact </span>
     </div>
   </div>
 );
