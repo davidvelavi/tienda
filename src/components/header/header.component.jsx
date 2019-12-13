@@ -1,14 +1,16 @@
 import React from 'react';
 import './header.styles.scss';
 import {ReactComponent as Logo} from '../../assets/crown.svg';
-
+import { Link } from "react-router-dom";
 
 const Header = ()=>(
   <div className="Header">
-    <Logo className="Header-Logo" />
+    <Link className="Header-Option" to="/">
+      <Logo className="Header-Logo" />
+    </Link>
     <div className="Header-Options">
-      <span className="Header-Option"> Shop </span>
-      <span className="Header-Option"> Contact </span>
+      <Link className="Header-Option" to="/shop"> Shop </Link>
+      <Link className="Header-Option" to="/contact"> Contact </Link>
     </div>
   </div>
 );
