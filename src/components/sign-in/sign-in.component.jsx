@@ -31,7 +31,7 @@ class  SignIn extends React.Component{
     this.setState({
       [name]:{
         ...this.state[name],
-        value: value
+        value
       }
     });
 
